@@ -8,7 +8,7 @@ CREATE TABLE genres (
 );
 
 
-CREATE TABLE authors (m
+CREATE TABLE authors (
     author_id   SERIAL PRIMARY KEY,
     first_name  VARCHAR(50) NOT NULL,
     last_name   VARCHAR(50) NOT NULL,
